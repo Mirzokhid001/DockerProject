@@ -10,7 +10,7 @@ node {
     stage('Build image') {
         /* This builds the actual image */
 
-        app = docker.build("vakhobdevops/nodeapp")
+        app = docker.build("mirzokhid001/nodeapp")
     }
 
     stage('Test image') {
